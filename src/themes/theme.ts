@@ -36,7 +36,7 @@ const theme = createTheme({
     keyboardAppearance: 'dark' as KeyboardAppearance,
   },
   textVariants: {
-    default: {
+    defaults: {
       fontSize: 12,
     },
   },
