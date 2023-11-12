@@ -12,30 +12,9 @@ Genesis is a template for react native. Comes with preconfigured feature tthat g
 
 
 #### Getting started
-1. Clone Genesis repository:
+Clone Genesis repository:
 ```bash
 git clone git@github.com:psalishol/genesis.git [Folder name]
-```
-
-2. Change directory to the new folder:
-```bash
-cd [Folder name]
-```
-3. Install the dependencies using yarn:
-```bash
-yarn
-```
-Or using npm:
-```bash
-npm install
-```
-4. Run the app on Android:
-```bash
-yarn run android
-```
-Run on ios:
-```bash
-yarn run ios
 ```
 
 #### Rename project
