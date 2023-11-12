@@ -31,6 +31,7 @@ const theme = createTheme({
   },
   colors: {
     $primary: palletes.black,
+    $foreground: palletes.white,
   },
   keyboard: {
     keyboardAppearance: 'dark' as KeyboardAppearance,
@@ -38,6 +39,7 @@ const theme = createTheme({
   textVariants: {
     defaults: {
       fontSize: 12,
+      color: '$foreground',
     },
   },
 });
@@ -55,6 +57,7 @@ const lightTheme: Theme = {
   colors: {
     ...theme.colors,
     $primary: palletes.white,
+    $foreground: palletes.black,
   },
 };
 
