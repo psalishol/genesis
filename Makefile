@@ -5,3 +5,4 @@ commit-all:
 	git add . && git commit -m 'update'
 
 .PHONY: remove-node commit-all
+
